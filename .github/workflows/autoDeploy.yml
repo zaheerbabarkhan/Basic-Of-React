@@ -43,5 +43,6 @@ jobs:
       - name: Building the app for production
         run: sudo yarn build
      
+     
       - name: deployng the app  
         run: surge ./build http://react-basic-class-assignment.surge.sh/ --token ${{ secrets.SURGE_TOKEN}}
