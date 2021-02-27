@@ -14,7 +14,7 @@ function App() {
         <div>
             <h1 style={{ textAlign: "center" }}>This is evaluated using expression like 100 + 100 = {100 + 100}</h1>
         </div>
-        <h1 style={{textAlign: "center"}}>This text was added after the configuration of autodeployment from githUb</h1>
+        <h1 style={{ textAlign: "center" }}>This text was added after the configuration of autodeployment from githUb</h1>
     </div>
 }
 
